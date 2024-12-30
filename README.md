@@ -16,7 +16,7 @@ O *7 Days Of Code* foi criado para que desenvolvedores pudessem desafiar os seus
 
 ##
 
-| **Descrição**          | **Link**                                                |
-| ---------------------- | ------------------------------------------------------- |
-| Tecnologias utilizadas | Vite, React, SCSS (SASS), TypeScript, e Bootstrap icons |
-| URL da Aplicação       | **[Meteora](https://meteora-sepia-eta.vercel.app/)**    |
+| **Descrição**          | **Link**                                                   |
+| ---------------------- | ---------------------------------------------------------- |
+| Tecnologias utilizadas | Vite, React, SCSS (SASS), TypeScript, e Bootstrap icons    |
+| URL da Aplicação       | **[Casa Verde](https://casa-verde-theta-six.vercel.app/)** |
