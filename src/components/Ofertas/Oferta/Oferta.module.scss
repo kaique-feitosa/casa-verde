@@ -1,0 +1,70 @@
+@use '../../../styles/variaveis' as variaveis;
+
+.oferta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: variaveis.$bg-cards;
+  box-shadow: 10px 10px 30px 0px #0000000F;
+  height: 200px;
+  width: 379px;
+  transition: all 0.4s ease;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+
+  .imagem {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+  }
+
+  .infos {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 1rem;
+    width: 50%;
+
+    h4 {
+      font-family: variaveis.$fonte-destaque;
+      font-size: 2rem;
+      font-weight: 900;
+      line-height: 36.86px;
+    }
+
+    span {
+      line-height: 19.5px;
+      padding-top: 1rem;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+
+      color: variaveis.$cor-destaque;
+      line-height: 19.5px;
+      padding-top: 1.5rem;
+      text-decoration: none;
+      transition: all 0.4s ease;
+
+      i {
+        font-size: 16px;
+        transition: transform 0.4s ease;
+      }
+
+      &:hover {
+        text-decoration: underline;
+
+        i {
+          transform: translateX(5px); // Move o ícone 5px para frente
+        }
+      }
+    }
+  }
+}

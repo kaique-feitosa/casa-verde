@@ -1,0 +1,35 @@
+@use '../../styles/variaveis' as variaveis;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 712px;
+
+  h2 {
+    font-size: 1.375rem;
+    line-height: 26.82px;
+    text-align: center;
+    width: 283px;
+
+    span {
+      font-family: variaveis.$fonte-destaque;
+      font-size: 5.125rem;
+      font-weight: 900;
+      line-height: 94.45px;
+    }
+  }
+
+  .ofertas {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    margin-top: 0.5rem;
+    width: 1200px;
+  }
+}

@@ -1,0 +1,15 @@
+@use './variaveis' as variaveis;
+
+* {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+body,
+#root {
+  font-family: variaveis.$fonte-principal;
+  font-size: 1rem;
+  font-weight: 400;
+  color: variaveis.$cor-texto;
+}

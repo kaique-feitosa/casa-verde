@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "imagem": "/plantas/imagem-1.png",
+    "titulo": "Ajuga reptans",
+    "preco": 20
+  },
+  {
+    "id": 2,
+    "imagem": "/plantas/imagem-2.png",
+    "titulo": "Cordyline fruticosa",
+    "preco": 20
+  },
+  {
+    "id": 3,
+    "imagem": "/plantas/imagem-3.png",
+    "titulo": "Crassula ovata",
+    "preco": 20
+  },
+  {
+    "id": 4,
+    "imagem": "/plantas/imagem-4.png",
+    "titulo": "Cyperus rotundus",
+    "preco": 20
+  },
+  {
+    "id": 5,
+    "imagem": "/plantas/imagem-5.png",
+    "titulo": "Delairea odorata",
+    "preco": 20
+  },
+  {
+    "id": 6,
+    "imagem": "/plantas/imagem-6.png",
+    "titulo": "Datura metel",
+    "preco": 20
+  }
+]
